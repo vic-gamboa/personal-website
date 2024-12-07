@@ -1,0 +1,144 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #020827;
+  color: #d4ebff;
+}
+
+/* Header */
+.header {
+  background-color: #001f3f;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #ffffff;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Logo */
+.logo img {
+  display: block;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #d4ebff;
+  font-size: 12px;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* User Options */
+.user-options {
+  display: flex;
+}
+
+.user-options a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #d4ebff;
+  font-size: 12px;
+}
+
+.user-options a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #020827;
+  color: #d4ebff;
+}
+
+/* Forum Section Styles */
+.forum-section {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 900px;
+  border: 1px solid #333;
+  background-color: #001f3f;
+}
+
+.forum-title a {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.forum-body {
+  margin-top: 20px;
+}
+
+.forum-post {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.forum-post-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.forum-post-title a {
+  font-size: 18px;
+  color: #d4ebff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.forum-description {
+  font-size: 14px;
+  color: #d4ebff;
+}
+
+.forum-meta {
+  font-size: 12px;
+  color: #a9b7c6;
+  margin-top: 10px;
+}
+
+/* Hover effects */
+.forum-post-title a:hover {
+  text-decoration: underline;
+}
+#snow-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.content-wrapper {
+  background-color: #001f3f;
+}
